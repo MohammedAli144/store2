@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="./icon/url.jpeg">
+    <title>lighten</title>
+</head>
+
+<body>
+    <!-- MODAL LOGIN -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-warning">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Please enter the password and user name!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">User name:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Password:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-warning">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start header  -->
+    <div id="template-header" class="template-header">
+        <header class="bg-warning d-none  d-lg-block">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-facebook text-dark mx-4 fs-5"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter text-dark me-4 fs-5"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram text-dark me-4 fs-5"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin text-dark me-4 fs-5"></i></a>
+                </div>
+                <div class="text pt-2">
+                    <p>long established fact that a reader will be</p>
+                </div>
+            </div>
+        </header>
+        <!-- End header  -->
+        <!-- start Navbar -->
+        <div class="container py-3">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand col-lg-4 " href="#"><img src="./images/logo.jpg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link fs-6 fw-medium text-dark" aria-current="page" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-6 fw-medium text-dark" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-6 fw-medium text-dark" href="./products.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-6 fw-medium text-dark" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-6 fw-medium text-dark" href="./Contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-6 fw-medium text-dark" href="#">Signup</a>
+                        </li>
+                    </ul>
+                </div>
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"class="btn btn-warning d-none d-lg-block px-5 fs-5">Login</button>
+            </nav>
+        </div>
+    </div>
+    <!-- End header  -->
+    <!-- start title  -->
+    <div class="title bg-warning py-5">
+        <div class="container">
+            <h3 class="text-center text-uppercase fw-bolder" style="font-size: 50px;">our product</h3>
+        </div>
+    </div>
+    <div class="products-info pt-5 text-center">
+        <div class="container">
+            <p>We package the products with best services to make you a happy customer.</p>
+        </div>
+    </div>
+    <!-- End title  -->
+    <!-- start Products -->
+    <div class="products">
+        <div class="all-cards body-tertiary shadow-lg">
+            <div class="container py-5 my-5">
+                <div class="row ">
+                    <div class="  col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3 text-center" style=" border: none;">
+                        <div class="product bg-body-secondary py-3">
+                            <i><img src="./icon/p1.png" class=" w-75 m-auto mb-3" alt="..."></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Norton Internet Security</h5>
+                                <p class="card-text fs-3 fw-medium">$25.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="  col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3 text-center" style=" border: none;">
+                        <div class="product bg-body-secondary py-3 ">
+                            <i><img src="./icon/p2.png" class=" w-75 m-auto mb-3" alt="..."></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Norton Internet Security</h5>
+                                <p class="card-text fs-3 fw-medium">$25.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3 text-center" style=" border: none;">
+                        <div class="product bg-body-secondary py-3 ">
+                            <i><img src="./icon/p3.png" class=" w-75 m-auto mb-3" alt="..."></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Norton Internet Security</h5>
+                                <p class="card-text fs-3 fw-medium">$25.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="  col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3 text-center" style=" border: none;">
+                        <div class="product bg-body-secondary py-3">
+                            <i><img src="./icon/p4.png" class=" w-75 m-auto mb-3" alt="..."></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Norton Internet Security</h5>
+                                <p class="card-text fs-3 fw-medium">$25.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="  col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3 text-center" style=" border: none;">
+                        <div class="product bg-body-secondary py-3">
+                            <i><img src="./icon/p5.png" class=" w-75 m-auto mb-3" alt="..."></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Norton Internet Security</h5>
+                                <p class="card-text fs-3 fw-medium">$25.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="  col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3 text-center" style=" border: none;">
+                        <div class="product bg-body-secondary py-3">
+                            <i><img src="./icon/p7.png" class=" w-75 m-auto mb-3" alt="..."></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Norton Internet Security</h5>
+                                <p class="card-text fs-3 fw-medium">$25.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="  col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3 text-center" style=" border: none;">
+                        <div class="product bg-body-secondary py-3">
+                            <i><img src="./icon/p6.png" class=" w-75 m-auto mb-3" alt="..."></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Norton Internet Security</h5>
+                                <p class="card-text fs-3 fw-medium">$25.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="  col-xl-3 col-lg-3 col-md-6 col-sm-12 py-3 text-center" style=" border: none;">
+                        <div class="product bg-body-secondary py-3">
+                            <i><img src="./icon/p2.png" class=" w-75 m-auto mb-3" alt="..."></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Norton Internet Security</h5>
+                                <p class="card-text fs-3 fw-medium">$25.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Products -->
+    <!-- start footer -->
+    <footer class=" text-xm-center">
+        <div class="all-links bg-dark text-white py-4">
+            <div class="container mt-3">
+                <div class="icons d-flex justify-content-center mb-5">
+                    <a href="#"><i class="fa-brands fa-facebook text-white me-5 fs-5"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter text-white me-5 fs-5"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram text-white me-5 fs-5"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin text-white fs-5"></i></a>
+                </div>
+                <div class="row mt-5">
+                    <div class="contact  col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <h2 class="mb-3">contact us</h2>
+                        <p>123 Second Street Fifth Avenue,</p>
+                        <span>Manhattan, New York</span>
+                        <br>
+                        <span>+987 654 3210</span>
+                    </div>
+                    <div class="links col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <h2 class="mb-3">Additional links</h2>
+                        <div class="list">
+                            <a href="#" class="list-group-item list-group-item-action">About us</a>
+                            <a href="#" class="list-group-item list-group-item-action ">Terms and conditions
+                                item</a>
+                            <a href="#" class="list-group-item list-group-item-action ">Privacy policy
+                                item</a>
+                            <a href="#" class="list-group-item list-group-item-action">News
+                                item</a>
+                            <a href="#" class="list-group-item list-group-item-action">Contact us
+                                item</a>
+                        </div>
+                    </div>
+                    <div class="services col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <h2 class="mb-3">services</h2>
+                        <div class="list">
+                            <a href="#" class="list-group-item list-group-item-action">About us</a>
+                            <a href="#" class="list-group-item list-group-item-action ">Terms and conditions
+                                item</a>
+                            <a href="#" class="list-group-item list-group-item-action ">Privacy policy
+                                item</a>
+                            <a href="#" class="list-group-item list-group-item-action">News
+                                item</a>
+                            <a href="#" class="list-group-item list-group-item-action">Contact us
+                                item</a>
+                        </div>
+                    </div>
+                    <div class="about col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <h2 class="mb-3">About lighten</h2>
+                        <p>Tincidunt elit magnis nulla
+                            <br>facilisis. Dolor Sapien nunc
+                            <br>amet ultrices,
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- start copy writer -->
+        <div class="copy-writer bg-warning ">
+            <div class="container py-3">
+                <p class="mb-0 text-center fst-italic">Copyright 2024 All Right Reserved By Free html Templates Distributed
+                    By
+                    ThemeWagon</p>
+            </div>
+        </div>
+        <!-- End copy writer -->
+    </footer>
+        <!-- End footer  -->
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Script File -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

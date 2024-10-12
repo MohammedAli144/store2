@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navItem {
+    color: #ffc107 !important;
+}
+/*Start main heading  */
+
+.heading h3 {
+    font-size: 60px !important;
+    text-transform: uppercase;
+    position: relative;
+}
+@media(max-width:550px) {
+    .heading h3 {
+        font-size: 40px !important;
+    }
+}
+.heading h3::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 6px;
+    background-color: black;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*End main heading  */
+/*Start Navbar */
+.navbar-nav li a {
+    text-transform: uppercase;
+}
+.navbar-nav li a:hover {
+    color: #ffc107 !important;
+}
+
+nav button:hover {
+    color: aliceblue !important;
+}
+/*End Navbar */
+
+/*Start Landing Page */
+.landing .container .icons i {
+    cursor: pointer !important;
+}
+.landing .container .icons i:hover {
+    background-color: #ffc107 !important;
+    color: aliceblue !important;
+}
+@media(max-width:767px) {
+    .landing .container .text {
+        padding-left: 10px !important;
+    }
+}
+/*End Landing Page */
+
+
+/* services */
+.services .card .services-box{
+    height: 320px;
+}
+/* services */
+
+
+/* products */
+.products .container .product:hover {
+    background-color: #ffc107 !important;
+}
+/* products */
+
+footer a:hover  ,
+footer i:hover {    
+    color: #ffc107 !important;
+}
+
+.contact button {
+    background-color: black;
+    text-transform: capitalize;
+    border: none;
+}
+.contact button:hover {
+    background-color: #ffc107;
+}
